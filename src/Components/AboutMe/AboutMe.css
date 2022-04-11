@@ -1,3 +1,5 @@
 body.aboutMeBody {
     grid-row: 2/3;
+    position: absolute;
+    top: 40%;
 }

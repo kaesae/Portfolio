@@ -18,24 +18,25 @@
     grid-row: 1/2;
     grid-column: 1/2;
     position: fixed;
-    right: 200px;
+    right: 184px;
     top: 15%;
+    font-size: 31px;
 }
 
 .pronunciation {
     grid-row: 2/3;
     grid-column: 1/2;
     position: fixed;
-    right: 200px;
-    top: 27%;
-
+    right: 192px;
+    top: 19%;
+    font-size: 13px;
 }
 
 .pronouns {
     grid-row: 3/4;
     grid-column: 1/2;
     position: fixed;
-    right: 200px;
-    top: 32%;
-
+    right: 196px;
+    top: 20.5%;
+    font-size: 13px;
 }

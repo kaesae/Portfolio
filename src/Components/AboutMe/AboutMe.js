@@ -7,7 +7,7 @@ const AboutMe = () => {
         <body className='aboutMeBody'><span className="first-letter">W</span>elcome!
         <br />
         <br />
-        My name is Kae Saetern, pronounced kay SAY-turn. 
+        
         </body>
       </div>
     );

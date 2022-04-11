@@ -1,3 +1,8 @@
+.projectsComponent {
+    position: absolute;
+    top: 40%;
+}
+
 .little-logo {
     height: 30px;
     width: 30px;

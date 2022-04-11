@@ -10,16 +10,17 @@
     border-radius: 100%;
     grid-column: 2/3;
     grid-row: 1/4;
-    position: absolute;
-    right: 0;
+    position: fixed;
+    right: 5%;
+    top: 5%;
 }
 
 .name {
     grid-row: 1/2;
     grid-column: 1/2;
     position: fixed;
-    right: 184px;
-    top: 15%;
+    right: 240px;
+    top: 49px;
     font-size: 31px;
 }
 
@@ -27,8 +28,8 @@
     grid-row: 2/3;
     grid-column: 1/2;
     position: fixed;
-    right: 192px;
-    top: 19%;
+    right: 248px;
+    top: 79px;
     font-size: 13px;
 }
 
@@ -36,7 +37,7 @@
     grid-row: 3/4;
     grid-column: 1/2;
     position: fixed;
-    right: 196px;
-    top: 20.5%;
+    right: 253px;
+    top: 91px;
     font-size: 13px;
 }

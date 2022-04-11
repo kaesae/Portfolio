@@ -4,6 +4,7 @@ const Footer = () => {
     return (
       <div className="footerComponent">
           Designed by Kae
+          
       </div>
     );
   };

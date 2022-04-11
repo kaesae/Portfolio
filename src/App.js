@@ -10,6 +10,7 @@ import './App.css'
 // Import Hooks
 import { Link, Route, Routes } from "react-router-dom";
 import Profile from "./Components/Profile/Profile";
+import Home from "./Components/Home/Home";
 
 
 function App() {
@@ -19,17 +20,17 @@ function App() {
       
       <nav className="linkContainer">
         <div className="linkDiv"><Link className='links' to="/">Home</Link></div>
-        <div className="linkDiv"><Link className='links' to="/aboutme">About Me</Link></div>
         <div className="linkDiv"><Link className='links' to="/projects">Projects</Link></div>
         <div className="linkDiv"><Link className='links' to="/languages">Languages</Link></div>
+        <div className="linkDiv"><Link className='links' to="/previous-career">Previous Career</Link></div>
       </nav>
 
       <body>
         <div className="routes">
           <Profile />
           <Routes>
-            <Route path="/"/>
-            <Route path="/aboutme" element={<AboutMe />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/previous-career" element={<AboutMe />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/languages" element={<Languages />} />
           </Routes>

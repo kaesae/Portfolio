@@ -7,7 +7,7 @@ const Profile = () => {
         <img className='portrait' src={Portrait} />
         <div className='name'>Kae Saetern</div>
         <div className='pronunciation'>kay SAY-turn</div>
-        <div className='pronouns'>he/him, they/them</div>
+        <div className='pronouns'>he/him || they/them</div>
       </div>
     );
   };

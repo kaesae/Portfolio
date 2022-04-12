@@ -1,5 +1,5 @@
 // Import Components and Files
-import AboutMe from "./Components/AboutMe/AboutMe";
+import PreviousCareer from "./Components/PreviousCareer/PreviousCareer";
 import Languages from "./Components/Languages/Languages";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer/Footer";
@@ -29,7 +29,7 @@ function App() {
         <div className="routes">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/previous-career" element={<AboutMe />} />
+            <Route path="/previous-career" element={<PreviousCareer />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/languages" element={<Languages />} />
           </Routes>

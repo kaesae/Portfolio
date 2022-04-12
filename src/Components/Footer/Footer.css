@@ -1,9 +1,20 @@
 .footerComponent {
-    position: fixed;
     display: block;
     text-align: center;
     overflow: hidden;
     bottom: 0;
     width: 100%;
     margin: 30px 0;
+}
+
+.githubPhoto {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.linkedInPhoto {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
 }

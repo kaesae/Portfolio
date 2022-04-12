@@ -16,8 +16,8 @@ import Home from "./Components/Home/Home";
 function App() {
   return (
     <div className="App">
+      <Profile />
 
-      
       <nav className="linkContainer">
         <div className="linkDiv"><Link className='links' to="/">Home</Link></div>
         <div className="linkDiv"><Link className='links' to="/projects">Projects</Link></div>
@@ -27,7 +27,6 @@ function App() {
 
       <body>
         <div className="routes">
-          <Profile />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/previous-career" element={<AboutMe />} />
@@ -35,9 +34,10 @@ function App() {
             <Route path="/languages" element={<Languages />} />
           </Routes>
         </div>
+
       </body>
 
-      <Footer />
+      <footer><Footer /></footer>
     </div>
   );
 }

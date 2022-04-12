@@ -5,8 +5,17 @@
     z-index: -1;
 }
 
-
 /* Applied to All Project Cards */
+.logos {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: right;
+    align-items: flex-end;
+    bottom: 0;
+    margin: 5px;
+}
+
 .little-logo {
     height: 30px;
     width: 30px;
@@ -18,7 +27,7 @@
 
 .first-letter {
     font-size: 18px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .project-description {
@@ -29,40 +38,67 @@
 /* Project 1 Items */
 .project-card1 {
     background-color: #a8e6cf;
-    height: 200px;
+    height: 320px;
     width: 80%;
+    padding: 10px;
+}
+
+.portfolioPhoto {
+    height: 200px;
+    padding-left: 100px;
 }
 
 /* Project 2 Items */
 .project-card2 {
     background-color: #dcedc1 ;
-    height: 300px;
+    height: 330px;
     width: 80%;
+    padding: 10px;
+
 }
 
 .covidPhoto {
     height: 200px;
     width: 350px;
+    padding-left: 80px;
 }
 
 /* Project 3 Items */
 .project-card3 {
     background-color: #ffd3b6 ;
-    height: 200px;
+    height: 300px;
     width: 80%;
+    padding: 10px;
+
+}
+
+.healthPhoto {
+    height: 200px;
+    padding-left: 80px;
+
 }
 
 
 /* Project 4 Items */
 .project-card4 {
     background-color: #ffaaa5 ;
-    height: 200px;
+    height: 300px;
     width: 80%;
+    padding: 10px;
+
+}
+
+.meritPhoto {
+    height: 200px;
+    padding-left: 80px;
+
 }
 
 /* Project 5 Items */
 .project-card5 {
     background-color: #ff8b94;
-    height: 200px;
+    height: 300px;
     width: 80%;
+    padding: 10px;
+
 }

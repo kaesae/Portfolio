@@ -1,14 +1,68 @@
+/* Entire Project Component */
 .projectsComponent {
     position: absolute;
     top: 40%;
+    z-index: -1;
 }
 
+
+/* Applied to All Project Cards */
 .little-logo {
     height: 30px;
     width: 30px;
 }
 
+.project-title {
+    font-size: 21px;
+}
+
+.first-letter {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.project-description {
+    font-size: 12px;
+}
+
+
+/* Project 1 Items */
+.project-card1 {
+    background-color: #a8e6cf;
+    height: 200px;
+    width: 80%;
+}
+
+/* Project 2 Items */
+.project-card2 {
+    background-color: #dcedc1 ;
+    height: 300px;
+    width: 80%;
+}
+
 .covidPhoto {
     height: 200px;
     width: 350px;
+}
+
+/* Project 3 Items */
+.project-card3 {
+    background-color: #ffd3b6 ;
+    height: 200px;
+    width: 80%;
+}
+
+
+/* Project 4 Items */
+.project-card4 {
+    background-color: #ffaaa5 ;
+    height: 200px;
+    width: 80%;
+}
+
+/* Project 5 Items */
+.project-card5 {
+    background-color: #ff8b94;
+    height: 200px;
+    width: 80%;
 }

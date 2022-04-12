@@ -3,14 +3,14 @@ import AboutMe from "./Components/AboutMe/AboutMe";
 import Languages from "./Components/Languages/Languages";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer/Footer";
+import Profile from "./Components/Profile/Profile";
+import Home from "./Components/Home/Home";
 
 // CSS
 import './App.css'
 
 // Import Hooks
 import { Link, Route, Routes } from "react-router-dom";
-import Profile from "./Components/Profile/Profile";
-import Home from "./Components/Home/Home";
 
 
 function App() {

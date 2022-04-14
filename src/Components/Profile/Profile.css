@@ -1,8 +1,9 @@
 .profileComponent {
     display: grid;
+    justify-content: right;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 300px;
-    z-index: 1;
+    grid-template-columns: 200px 100px;
+    margin-right: 25%;
 }
 
 .portrait {
@@ -11,34 +12,28 @@
     border-radius: 100%;
     grid-column: 2/3;
     grid-row: 1/4;
-    position: fixed;
-    right: 5%;
-    top: 5%;
+    margin-left: -25%
 }
 
 .name {
     grid-row: 1/2;
     grid-column: 1/2;
-    position: fixed;
-    right: 240px;
-    top: 49px;
     font-size: 31px;
+    align-self: flex-end;
+    margin-left: 10%;
 }
 
 .pronunciation {
     grid-row: 2/3;
     grid-column: 1/2;
-    position: fixed;
-    right: 248px;
-    top: 79px;
     font-size: 13px;
+    margin-left: 48%;
 }
 
 .pronouns {
     grid-row: 3/4;
     grid-column: 1/2;
-    position: fixed;
-    right: 253px;
-    top: 91px;
     font-size: 13px;
+    margin-top: -25%;
+    margin-left: 29%;
 }

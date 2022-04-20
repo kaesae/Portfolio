@@ -24,7 +24,7 @@ const Projects = () => {
         <img className="covidPhoto" src="https://www.who.int/images/default-source/health-topics/health-financing/novelcoronavirus-optimized.jpg?sfvrsn=755458c4_12" />
         <br />
         <div className="logos">
-            <a href="https://kaesae.github.io/Project2-React/"><img className="little-logo" src="https://seeklogo.com/images/G/globe-logo-42DE548AC7-seeklogo.com.png" /></a>
+            <a href="https://kaesae.github.io/Project2-React/"><img className="little-logo" src="https://seeklogo.com/images/G/globe-logo-42DE548AC7-seeklogo.com.png"></img></a>
             <a href="https://github.com/kaesae/Project2-React"><img className="little-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png" /></a>
         </div>
       </div>

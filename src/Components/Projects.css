@@ -2,7 +2,6 @@
 .projectsComponent {
     position: absolute;
     top: 40%;
-    z-index: -1;
 }
 
 /* Applied to All Project Cards */
@@ -75,7 +74,6 @@
 .healthPhoto {
     height: 200px;
     padding-left: 80px;
-
 }
 
 

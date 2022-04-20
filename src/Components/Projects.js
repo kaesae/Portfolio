@@ -1,7 +1,3 @@
-import Merit from "./Projects/Merit";
-import HealthTracker from "./Projects/HealthTracker";
-import Covid from "./Projects/Covid";
-import Portfolio1 from "./Projects/Portfolio1";
 import './Projects.css'
 
 const Projects = () => {
@@ -12,7 +8,7 @@ const Projects = () => {
       {/* Project 1 */}
       <div className="project-card1">
         <div className="project-title">Portfolio</div>
-        <div className="project-description"><span className="first-letter">T</span>his project taught me about project planning, time management, and allowed me to create and entire website in just HTML, CSS, and JavaScript. It's unfinished and unrefined nature shows a contrast in my skills from when I started versus the portfolio you see today.</div>
+        <div className="project-description"><span className="first-letter">T</span>his project focused on project planning, time management, and showcases an entire website in just HTML, CSS, and JavaScript. It's unfinished and unrefined nature showcases a progression of skills.</div>
         <img className="portfolioPhoto" src="https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" />
         <br />
         <div className="logos">

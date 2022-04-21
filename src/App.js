@@ -4,7 +4,6 @@ import Languages from "./Components/Languages/Languages";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer/Footer";
 import Profile from "./Components/Profile/Profile";
-import Home from "./Components/Home/Home";
 
 // CSS
 import './App.css'
@@ -19,7 +18,6 @@ function App() {
       <Profile />
 
       <nav className="linkContainer">
-        <div className="linkDiv"><Link className='links' to="/">Home</Link></div>
         <div className="linkDiv"><Link className='links' to="/projects">Projects</Link></div>
         <div className="linkDiv"><Link className='links' to="/languages">Languages</Link></div>
         <div className="linkDiv"><Link className='links' to="/previous-career">Previous Career</Link></div>
@@ -28,7 +26,7 @@ function App() {
       <body>
         <div className="routes">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Languages />} />
             <Route path="/previous-career" element={<PreviousCareer />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/languages" element={<Languages />} />

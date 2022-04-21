@@ -20,7 +20,6 @@ const Languages = () => {
 
       <div className="languagesContainer">
         <div className="languagesTitle">Databases:</div>
-        <img className="heroku-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/220px-Heroku_logo.svg.png" />
         <img className="mongo-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/250px-MongoDB_Logo.svg.png" />
       </div>
 
@@ -28,6 +27,11 @@ const Languages = () => {
         <div className="languagesTitle">Environments:</div>
         <img className="postman-logo" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.png" />
         <img className="node-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/220px-Node.js_logo.svg.png" />
+      </div>
+
+      <div className="languagesContainer">
+      <div className="languagesTitle">Web Hosting:</div>
+        <img className="heroku-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/220px-Heroku_logo.svg.png" />
       </div>
       {/* <img className="logo" src="" /> */}
     </div>

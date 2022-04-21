@@ -43,22 +43,22 @@
 
 .portfolioPhoto {
     height: 200px;
-    padding-left: 100px;
+    padding-left: 80px;
+    border-radius: 50%;
 }
 
 /* Project 2 Items */
 .project-card2 {
     background-color: #dcedc1 ;
-    height: 330px;
+    height: 350px;
     width: 80%;
     padding: 10px;
-
 }
 
 .covidPhoto {
     height: 200px;
-    width: 350px;
-    padding-left: 80px;
+    border-radius: 50%;
+    padding-right: 80px;
 }
 
 /* Project 3 Items */
@@ -73,6 +73,7 @@
 .healthPhoto {
     height: 200px;
     padding-left: 80px;
+    border-radius: 50%;
 }
 
 
@@ -87,7 +88,8 @@
 
 .meritPhoto {
     height: 200px;
-    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 50%;
 }
 
 /* Project 5 Items */
@@ -97,4 +99,10 @@
     width: 80%;
     padding: 10px;
 
+}
+
+.dictionaryPhoto {
+    height: 200px;
+    padding-left: 80px;
+    border-radius: 50%;
 }

@@ -1,8 +1,8 @@
 div.App {
-  margin: 10%;
+  margin: 10% 0 10% 10%;
   display: grid;
   grid-template-columns: 200px 500px;
-  grid-template-rows: 210px 1400px 50px;
+  grid-template-rows: 210px 1fr 50px;
 }
 
 div {
@@ -25,7 +25,6 @@ div {
   transform:translateY(-1px);
   padding: 4px;
   border-radius: 5px;
-
 }
 
 nav.linkContainer {

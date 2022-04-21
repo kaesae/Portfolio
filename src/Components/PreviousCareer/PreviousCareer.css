@@ -1,6 +1,5 @@
 body.previousCareerBody {
     grid-row: 2/3;
-    position: absolute;
     top: 40%;
     margin: 0 20px;
     background-color: rgb(164, 240, 243);

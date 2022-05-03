@@ -14,8 +14,10 @@ const PreviousCareer = () => {
           {/* Paragraph 2 */}
           <span className="previous-career-first-letter">W</span>hile applying my academic skills and knowledge to the beginning of my career of working with students
           with academic delays from low-income households, I'd strongly and passionately argue that I have done some of the most fulfilling work I will ever do in my life.
+          <br />
           <iframe className="videos" width="425" height="315"  src="https://www.youtube.com/embed/ksBawxHK-0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe className="videos" width="425" height="315" src="https://www.youtube.com/embed/FSNmOoh-KWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br />
           (Top video: Catch me playing basketball with a beloved student at 2:49! | Bottom video: My interview of part of the work we did.)
           <br />
           <br />

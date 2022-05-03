@@ -1,8 +1,8 @@
 @media screen and (min-width: 1064px) {
 div.App {
-  margin: 10% 0 10% 10%;
+  margin: 10% 10% 10% 0%;
   display: grid;
-  grid-template-columns: 200px 500px;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 210px 1fr 50px;
 }
 
@@ -65,9 +65,10 @@ footer {
 ******************/
 
 .footerComponent {
-display: block;
+display: flex;
 text-align: center;
 overflow: hidden;
+justify-content: flex-end;
 bottom: 0;
 width: 100%;
 margin: 30px 0;
@@ -77,6 +78,7 @@ margin: 30px 0;
 height: 50px;
 width: 50px;
 border-radius: 100%;
+margin-left: 20px;
 }
 
 .linkedInPhoto {
@@ -258,74 +260,58 @@ font-size: 12px;
 .project-card1 {
 background-color: #a8e6cf;
 height: 320px;
-width: 80%;
 padding: 10px;
 }
 
 .portfolioPhoto {
 height: 200px;
-padding-left: 80px;
-border-radius: 50%;
 }
 
 /* Project 2 Items */
 .project-card2 {
 background-color: #dcedc1 ;
 height: 350px;
-width: 80%;
 padding: 10px;
 }
 
 .covidPhoto {
 height: 200px;
-border-radius: 50%;
-padding-right: 80px;
 }
 
 /* Project 3 Items */
 .project-card3 {
 background-color: #ffd3b6 ;
 height: 300px;
-width: 80%;
 padding: 10px;
 
 }
 
 .healthPhoto {
 height: 200px;
-padding-left: 80px;
-border-radius: 50%;
 }
-
 
 /* Project 4 Items */
 .project-card4 {
 background-color: #ffaaa5 ;
 height: 300px;
-width: 80%;
 padding: 10px;
 
 }
 
 .meritPhoto {
 height: 200px;
-padding-right: 80px;
-border-radius: 50%;
 }
 
 /* Project 5 Items */
 .project-card5 {
 background-color: #ff8b94;
 height: 300px;
-width: 80%;
 padding: 10px;
 
 }
 
 .dictionaryPhoto {
 height: 200px;
-padding-left: 80px;
-border-radius: 50%;
 }
 
 }

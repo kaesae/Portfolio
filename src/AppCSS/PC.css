@@ -1,9 +1,9 @@
 @media screen and (min-width: 1064px) {
-  div.App {
-    margin: 10% 0 10% 10%;
-    display: grid;
-    grid-template-columns: 200px 500px;
-    grid-template-rows: 210px 1fr 50px;
+div.App {
+  margin: 10% 0 10% 10%;
+  display: grid;
+  grid-template-columns: 200px 500px;
+  grid-template-rows: 210px 1fr 50px;
 }
 
 div {

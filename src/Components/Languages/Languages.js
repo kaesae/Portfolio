@@ -1,4 +1,3 @@
-import './Languages.css';
 
 const Languages = () => {
   return (

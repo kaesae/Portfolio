@@ -6,7 +6,10 @@ import Footer from "./Components/Footer/Footer";
 import Profile from "./Components/Profile/Profile";
 
 // CSS
-import './App.css'
+import './AppCSS/PC.css'
+import './AppCSS/Mobile.css'
+import './AppCSS/Tablet.css'
+
 
 // Import Hooks
 import { Link, Route, Routes } from "react-router-dom";

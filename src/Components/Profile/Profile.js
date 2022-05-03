@@ -1,4 +1,3 @@
-import './Profile.css';
 import Portrait from './../../Images/Portrait.jpeg';
 
 const Profile = () => {

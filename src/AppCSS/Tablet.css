@@ -1,8 +1,8 @@
 @media screen and (min-width: 765px) and (max-width: 1063px) {
     div.App {
-        margin: 10% 0 10% 10%;
+        margin: 10% 10% 10% 10%;
         display: grid;
-        grid-template-columns: 200px 500px;
+        grid-template-columns: 1fr 2fr;
         grid-template-rows: 210px 1fr 50px;
     }
     
@@ -20,27 +20,19 @@
         margin: 5px 0;
     }
     
-    .links:hover {
-        background-color: rgb(196, 196, 196);
-        box-shadow: 0 5px 20px rgba(131, 131, 131, 0.8);
-        transform:translateY(-1px);
-        padding: 4px;
-        border-radius: 5px;
-    }
-    
     nav.linkContainer {
         grid-column: 1/2;
-        grid-row: 1/2;
+        grid-row: 2/3;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: flex-start;
         text-align: right;
         padding-right: 10px;
     }
     
     body {
         grid-column: 2/3;
-        grid-row: 2/3;
+        grid-row: 1/3;
     }
     
     .languages {
@@ -50,14 +42,27 @@
     
     .profileComponent {
         grid-row: 1/2;
-        grid-column: 2/3;
+        grid-column: 1/2;
     }
     
     footer {
         grid-row: 2/3;
         grid-column: 1/2;
-        bottom: 0;
+        display: flex;
+        margin-top: 30%;
+
     }
+
+/*********************
+***** ANIMATIONS *****
+**********************/
+.links:hover {
+    background-color: rgb(196, 196, 196);
+    box-shadow: 0 5px 20px rgba(131, 131, 131, 0.8);
+    transform:translateY(-1px);
+    padding: 4px;
+    border-radius: 5px;
+}
     
 
 /*****************
@@ -66,17 +71,18 @@
 
 .footerComponent {
     display: block;
-    text-align: center;
+    text-align: right;
     overflow: hidden;
     bottom: 0;
     width: 100%;
-    margin: 30px 0;
+    margin: 30px 10px;
 }
 
 .githubPhoto {
     height: 50px;
     width: 50px;
     border-radius: 100%;
+    margin-left: 10px;
 }
 
 .linkedInPhoto {
@@ -258,43 +264,33 @@ body.previousCareerBody {
 .project-card1 {
     background-color: #a8e6cf;
     height: 320px;
-    width: 80%;
     padding: 10px;
 }
 
 .portfolioPhoto {
     height: 200px;
-    padding-left: 80px;
-    border-radius: 50%;
 }
 
 /* Project 2 Items */
 .project-card2 {
     background-color: #dcedc1 ;
     height: 350px;
-    width: 80%;
     padding: 10px;
 }
 
 .covidPhoto {
     height: 200px;
-    border-radius: 50%;
-    padding-right: 80px;
 }
 
 /* Project 3 Items */
 .project-card3 {
     background-color: #ffd3b6 ;
     height: 300px;
-    width: 80%;
     padding: 10px;
-
 }
 
 .healthPhoto {
     height: 200px;
-    padding-left: 80px;
-    border-radius: 50%;
 }
 
 
@@ -302,30 +298,22 @@ body.previousCareerBody {
 .project-card4 {
     background-color: #ffaaa5 ;
     height: 300px;
-    width: 80%;
     padding: 10px;
-
 }
 
 .meritPhoto {
     height: 200px;
-    padding-right: 80px;
-    border-radius: 50%;
 }
 
 /* Project 5 Items */
 .project-card5 {
     background-color: #ff8b94;
     height: 300px;
-    width: 80%;
     padding: 10px;
-
 }
 
 .dictionaryPhoto {
     height: 200px;
-    padding-left: 80px;
-    border-radius: 50%;
 }
 
-    }
+}

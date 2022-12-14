@@ -4,17 +4,6 @@ const Projects = () => {
     <div className="projectsComponent">
       <h2 className="title">Projects</h2>
 
-      {/* Project 1 */}
-      <div className="project-card1">
-        <div className="project-title">Portfolio</div>
-        <div className="project-description"><span className="first-letter">T</span>his project focused on project planning, time management, and showcases an entire website in just HTML, CSS, and JavaScript. It's unfinished and unrefined nature showcases a progression of skills.</div>
-        <img className="portfolioPhoto" src="https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" />
-        <br />
-        <div className="logos">
-            <a href="https://kaesae.github.io/Portfolio-Project/"><img className="little-logo" src="https://seeklogo.com/images/G/globe-logo-42DE548AC7-seeklogo.com.png" /></a>
-            <a href="https://github.com/kaesae/Portfolio-Project"><img className="little-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png" /></a>
-        </div>
-      </div>
       
       {/* Project 2 */}
       <div className="project-card2">

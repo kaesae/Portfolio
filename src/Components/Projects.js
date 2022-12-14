@@ -5,7 +5,7 @@ const Projects = () => {
       <h2 className="title">Projects</h2>
 
       
-      {/* Project 2 */}
+      {/* Project 1 */}
       <div className="project-card2">
         <div className="project-title">COVID-19 Statistics API</div>
         <div className="project-description"><span className="first-letter">F</span>etchin' API. This project hit home as I underwent a coding bootcamp with General Assembly during the pandemic. When deciding on which API to call upon, I reflected back on how much I've changed due to the pandemic and shelter-in-place. From introverted to extroverted, home-body to athlete, and a career in special education to software engineering.</div>
@@ -18,7 +18,7 @@ const Projects = () => {
       </div>
 
       
-      {/* Project 3 */}
+      {/* Project 2 */}
       <div className="project-card3">
         <div className="project-title">My Health App</div>
         <div className="project-description"><span className="first-letter">M</span>y first full-stack (MERN) and group application. This project taught me group work flow, how to navigate merging and opinion-related conflicts, </div>
@@ -32,7 +32,7 @@ const Projects = () => {
       </div>
 
 
-      {/* Project 4 */}
+      {/* Project 3 */}
       <div className="project-card4">
         <div className="project-title">Merit</div>
         <div className="project-description"><span className="first-letter"></span></div>
@@ -46,7 +46,7 @@ const Projects = () => {
       </div>
 
 
-      {/* Project 5 */}
+      {/* Project 4 */}
       <div className="project-card5">
         <div className="project-title">Mien Dictionary</div>
         <div className="project-description"><span className="first-letter">P</span>assion Project #1. This application will serve as a reference for the language, history, and culture of the Iu Mien, which is a dying language and culture. I decided to start this project because I myself am Mien, and I've always wished to know more about my culture.</div>

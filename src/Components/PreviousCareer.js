@@ -4,7 +4,7 @@ const PreviousCareer = () => {
       <div className="previousCareerComponent">
         <body className='previousCareerBody'>
           {/* Paragraph 1 */}
-          <span className="previous-career-first-letter">C</span>urrently, I am the Founder and Owner of Valence LLC.
+          <span className="previous-career-first-letter">P</span>reviously, I was the Founder and Owner of Valence LLC.
           My knack for languages led me to take multiple language courses in college: 3 years of Spanish, 1 year of Japanese, and 1 year of American Sign Language.
           In 2017, I began working with The Literacy and Language Center, LLC., a well-known private clinic that provided remedial-grade services, before graduating
           with a BA in Communicative Disorders and Minor in Special Education in 2018.
@@ -25,7 +25,7 @@ const PreviousCareer = () => {
           {/* Paragraph 3 */}
           <span className="previous-career-first-letter">2</span> years, 2 promotions, and 4 job titles later, the clinic had to unfortunately close their doors.
           I saw an opportunity and decided to start a business continuing the amazing work I had been doing. In April 2019, Valence LLC was formed and has been
-          going strong well into the pandemic. This year marks the 3-year anniversary of Valence's launch.
+          going strong well into the pandemic. After making a full transition to tech in 2024, I closed Valence after 5 years.
           <br />
           <br />
         </body>

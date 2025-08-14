@@ -1,14 +1,51 @@
 import Resume from '../Media/kaeSaetern_resume.pdf'
+import txt from '../Media/txt.json'
 
 const Home = () => {
+    const linkedin = 'https://cdn-icons-png.flaticon.com/512/665/665212.png'
+    const github = 'https://cdn-icons-png.flaticon.com/512/25/25231.png'
+    const download = 'https://brandeps.com/icon-download/D/Download-icon-vector-30.svg'
+    const arrow = 'https://cdn-icons-png.flaticon.com/512/664/664866.png'
+    const text = txt
+
     return (
-        <div className="home">
-            <div className="l">about</div>
-            <div className="m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div className="home" styles={{ padding: '100px 30px;' }}>
+            <div 
+            className="l">about</div>
+            <div 
+            className="m">
+                <p>{text.home[1]}</p>
+                <p>{text.home[2]}</p>
+                <div
+                style={{display:'flex', flexDirection:'row'}}>
+                    <p style={{ fontStyle:'italic' }}>Read more about my time in education</p>
+                    <img 
+                    style={{width:'40px', padding:'0 0 0 20px'}}
+                    className='invert'
+                    src={arrow} />
+                    </div>
+                </div>
             <div className="r">
-                <a href="https://www.linkedin.com/in/kae-saetern/">LinkedIn</a>
-                <a href="https://github.com/kaesae/">GitHub</a>
-                <a href={Resume} download='Kae-Saetern-Resume.pdf'>Resume</a>
+                <a 
+                    href="https://www.linkedin.com/in/kae-saetern/">
+                    <img
+                    className='invert'
+                    src={linkedin}
+                    />
+                    LinkedIn</a>
+                <a 
+                    href="https://github.com/kaesae/">
+                    <img
+                    className='invert'
+                    src={github}
+                    />
+                    GitHub</a>
+                <a 
+                    href={Resume} download='Kae-Saetern-Resume.pdf'>
+                    <img
+                    className='invert'
+                    src={download}
+                    />Resume</a>
             </div>
         </div>
     )

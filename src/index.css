@@ -7,7 +7,7 @@ html, body
   color: #F2F1EF;
 }
 
-.hero1 
+.hero 
 {
   overflow: hidden;
 }
@@ -44,4 +44,18 @@ div.r > *
   display: flex;
   flex-direction: column;
   padding: 5px 0;
+}
+
+div.m {
+  width: 100%;
+  line-height: 1.5;
+}
+
+img.invert
+{
+  width: 30px;
+  display: flex;
+  flex-direction: row;
+  filter: invert(100%);
+  padding: 0 6px;
 }

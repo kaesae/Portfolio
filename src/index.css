@@ -1,23 +1,47 @@
-html, body {
+html, body
+{
   margin: 0;
   padding: 0;
   height: 100%;
   background-color: #181818;
+  color: #F2F1EF;
 }
 
 .hero1 
 {
-  /* height: 300px; */
   overflow: hidden;
-
 }
 
 img.portrait
 {
   width: 100%;
   height: 100vh;
-  /* background-size: cover;
-  background-position: center; */
   object-fit: cover;
   object-position: 50% 37%;
+}
+
+a
+{
+  text-decoration: none;
+  color: #F2F1EF;
+}
+
+div.home
+{
+  display: flex;
+  padding: 30px 400px;
+
+}
+
+/* div.l, div.m, div.r */
+div.home > *
+{
+  padding: 30px 30px;
+}
+
+div.r > *
+{
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
 }

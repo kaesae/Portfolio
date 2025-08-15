@@ -9,7 +9,6 @@ const Home = () => {
     const download = 'https://brandeps.com/icon-download/D/Download-icon-vector-30.svg'
     const arrow = 'https://cdn-icons-png.flaticon.com/512/664/664866.png'
     const text = txt
-    const flexRow = {display:'flex', flexDirection:'row'}
 
 
     return (
@@ -22,8 +21,8 @@ const Home = () => {
                 <p>{text.home[2]}</p>
                 <br />
                 <div
-                style={flexRow}>
-                    <p className='readMore'>Read more about my time in education</p>
+          className='flexrow'>
+          <p className='readMore'>{text.home.readMore}</p>
                     <img 
                     style={{width:'40px', padding:'0 0 0 20px'}}
                     className='invert'

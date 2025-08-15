@@ -51,6 +51,11 @@ div.m {
   line-height: 1.5;
 }
 
+div.flexrow {
+  display: flex;
+  flex-direction: row;
+}
+
 img.invert
 {
   width: 30px;

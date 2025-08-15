@@ -1,6 +1,26 @@
 {
-    "home": {
+    "home": 
+    {
         "1": "Hello. My name is Kae Saetern, pronounced kay-say-turn. I am full-stack software engineer based in the tech hub of San Francisco, CA. After nearly a decade in education, program management, and business operations, I made a full switch to tech in 2024 with Genentech. There I launched and landed a GMP-compliant workflow-guided application that continues to be rolled out and expanded throughout the South San Francisco site to this day.",
-        "2": ""
+        "2": "",
+        "readMore": "Read more about my time in education<"
+    },
+    "previousCareer": {
+        "1": "Previously, I was the Founder, Owner, and Head Learning Specialist of Valence. My knack for linguistics led me to pursue a career in Speech Pathology. In 2017, I began working with The Literacy and Language Center (LLC), a well-known clinic based in San Francisco that provided remedial-grade educational services, before graduating with a B.A in Communicative Disorders and Minor in Special Education in 2018.",
+        "2": "The LLC would unfortunately close their doors, but another would open for me: Valence. I, like many of my colleagues, believed in the program and services we offered to families, so I continued the legacy of the LLC for another 5 years before making a full switch to tech.",
+        "3": "Helping students at such a critical stage in their life was some of the most fulfilling work I had done in my life.",
+        "readMore": "Read more about my time in tech",
+        "certs": {
+            "1": "B.A Communicative Disorders",
+            "2": "Special Education Minor"
+        },
+        "exp": {
+            "title1": "Owner, Founder, Head Learning Specialist",
+            "company1": "Valence LLC",
+            "years1": "2019-2024",
+            "title2": "Learning Specialist",
+            "company2": "The Literacy and Language Center",
+            "years2": "2017-2019"
+        }
     }
 }

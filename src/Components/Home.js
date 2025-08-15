@@ -1,5 +1,7 @@
 import Resume from '../Media/kaeSaetern_resume.pdf'
 import txt from '../Media/txt.json'
+import { Routes, Route } from 'react-router-dom'
+import PreviousCareer from './PreviousCareer'
 
 const Home = () => {
     const linkedin = 'https://cdn-icons-png.flaticon.com/512/665/665212.png'
@@ -7,6 +9,9 @@ const Home = () => {
     const download = 'https://brandeps.com/icon-download/D/Download-icon-vector-30.svg'
     const arrow = 'https://cdn-icons-png.flaticon.com/512/664/664866.png'
     const text = txt
+    const flexRow = {display:'flex', flexDirection:'row'}
+    const line3 = {fontStyle:'italic', display: 'flex', justifyContent: 'center', textAlign: 'center', 
+alignItems: 'center'}
 
     return (
         <div className="home" styles={{ padding: '100px 30px;' }}>
@@ -16,9 +21,10 @@ const Home = () => {
             className="m">
                 <p>{text.home[1]}</p>
                 <p>{text.home[2]}</p>
+                <br />
                 <div
-                style={{display:'flex', flexDirection:'row'}}>
-                    <p style={{ fontStyle:'italic' }}>Read more about my time in education</p>
+                style={flexRow}>
+                    <p style={line3}>Read more about my time in education</p>
                     <img 
                     style={{width:'40px', padding:'0 0 0 20px'}}
                     className='invert'

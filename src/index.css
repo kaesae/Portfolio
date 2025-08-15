@@ -119,7 +119,45 @@ li.linkDiv:hover
   box-shadow: 0 0 20px rgba(0,255,255,0.5);
 }
 
-li.linkDiv:hover::before {
+li.linkDiv:hover::before 
+{
   opacity: 1;
   transform: rotate(-45deg) translateY(100%);
+}
+
+/* Home, readMore animation */
+div > .readMore
+{
+  font-style: italic;
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.readMore::after 
+{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, rgba(3, 144, 144, 0.389), rgba(0,255,255,0.5));
+  bottom: 10px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease-out;
+}
+
+.readMore:hover::before 
+{
+  top: -5px;
+  transform-origin: left;
+}
+
+.readMore:hover::after,
+.readMore:hover::before 
+{
+  transform: scaleX(1);
 }

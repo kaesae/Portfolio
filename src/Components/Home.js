@@ -10,8 +10,7 @@ const Home = () => {
     const arrow = 'https://cdn-icons-png.flaticon.com/512/664/664866.png'
     const text = txt
     const flexRow = {display:'flex', flexDirection:'row'}
-    const line3 = {fontStyle:'italic', display: 'flex', justifyContent: 'center', textAlign: 'center', 
-alignItems: 'center'}
+
 
     return (
         <div className="home" styles={{ padding: '100px 30px;' }}>
@@ -24,7 +23,7 @@ alignItems: 'center'}
                 <br />
                 <div
                 style={flexRow}>
-                    <p style={line3}>Read more about my time in education</p>
+                    <p className='readMore'>Read more about my time in education</p>
                     <img 
                     style={{width:'40px', padding:'0 0 0 20px'}}
                     className='invert'

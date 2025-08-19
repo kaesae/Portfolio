@@ -1,19 +1,23 @@
 [
     {
         "id": "1",
-        "title": "Mienglish - The Iu Mien-English Dictionary",
+        "title": "Mienglish",
+        "subtitle": "The Iu Mien-English Dictionary",
         "desc": "This app is a bilingual dictionary and translation tool designed for Iu Mien and English users. It allows users to search words, hear pronunciations, and explore accurate translations between both languages. With a simple and intuitive interface, the app helps preserve Iu Mien language while making communication easier for learners, families, and communities.", 
-        "image": ""
+        "image": "",
+        "link": "https://kaesae.github.io/mien-website/"
     },
     {
         "id": "2",
-        "title": "Mienglish - The Iu Mien-English Dictionary",
+        "title": "Mienglish",
+        "subtitle": "The Iu Mien-English Dictionary",
         "desc": "This app is a bilingual dictionary and translation tool designed for Iu Mien and English users. It allows users to search words, hear pronunciations, and explore accurate translations between both languages. With a simple and intuitive interface, the app helps preserve Iu Mien language while making communication easier for learners, families, and communities.", 
         "image": ""
     },
     {
         "id": "3",
-        "title": "Mienglish - The Iu Mien-English Dictionary",
+        "title": "Mienglish",
+        "subtitle": "The Iu Mien-English Dictionary",
         "desc": "This app is a bilingual dictionary and translation tool designed for Iu Mien and English users. It allows users to search words, hear pronunciations, and explore accurate translations between both languages. With a simple and intuitive interface, the app helps preserve Iu Mien language while making communication easier for learners, families, and communities.", 
         "image": ""
     }
